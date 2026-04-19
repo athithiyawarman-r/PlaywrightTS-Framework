@@ -4,8 +4,6 @@ export class LoginPage extends PWWrapper {
 
     async loadUrl(url: string) { // actionables
         await this.page.goto(url)
-
-
     }
 
 
